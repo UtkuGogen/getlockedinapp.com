@@ -218,8 +218,8 @@
             <div class="relative flex justify-center lg:justify-end opacity-0 fade-in-up delay-500">
                 <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-primary/20 rounded-full blur-[120px] -z-10 pulse-glow"></div>
                 
-                <!-- Left phone (task list) - animated -->
-                <div class="iphone-frame bg-[#0A0A0A] w-[320px] overflow-hidden absolute -left-16 top-0 border-[#333] hidden lg:block" style="animation: float 6s ease-in-out infinite; animation-delay: 1s;">
+                <!-- Left phone (task list) - static -->
+                <div class="iphone-frame bg-[#0A0A0A] w-[320px] overflow-hidden absolute -left-16 top-0 border-[#333] hidden lg:block">
                     <div class="relative p-6 pt-12 flex flex-col h-[650px] bg-gradient-to-b from-[#0A0A0A] to-[#111]">
                         <div class="flex justify-between items-center mb-8">
                             <span class="material-icons-round text-white/50">menu</span>
@@ -361,7 +361,7 @@
                         <span class="material-icons-round text-4xl">photo_camera</span>
                     </div>
                     <h4 class="text-2xl font-black uppercase italic mb-4 text-white">Photo Submission</h4>
-                    <p class="text-white/60 leading-relaxed">No photo, no credit. Submit real-time proof of your progress. Our system prevents uploads from camera rolls—it must be live.</p>
+                    <p class="text-white/60 leading-relaxed">No photo, no credit. Submit proof of your progress. Photos must be taken after you create the task—no old pics allowed.</p>
                 </div>
                 
                 <div class="p-8 rounded-[32px] bg-background-dark border border-white/10 group hover:border-primary/50 transition-all hover:-translate-y-2 duration-300">
@@ -439,7 +439,7 @@
                             </div>
                             <div>
                                 <span class="font-black uppercase italic text-lg text-white">Anti-Cheat Engine</span>
-                                <p class="text-white/60">Prevents photo uploads from gallery. Live capture only.</p>
+                                <p class="text-white/60">Only accepts photos taken after the task is created.</p>
                             </div>
                         </li>
                         <li class="flex items-start gap-4">
@@ -597,7 +597,7 @@
                         <span class="material-icons-round text-primary group-open:rotate-180 transition-transform">expand_more</span>
                     </summary>
                     <div class="px-6 pb-6 text-white/60">
-                        No. LockedIn requires live photo capture only. Our anti-cheat system detects and blocks gallery uploads, screenshots, and previously taken photos. This ensures complete honesty in your habit tracking.
+                        Yes, but only photos taken after you created the task. Our system checks the timestamp of your photos to ensure you actually completed the habit—no using old pics to cheat your way through.
                     </div>
                 </details>
                 
